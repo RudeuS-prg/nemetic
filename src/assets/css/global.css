@@ -1,0 +1,98 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Font family configuration */
+	--font-sans: 'Montserrat Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+	/* Custom color system */
+	--themeHue: 209;
+
+	--color-colorDark: hsl(var(--themeHue), 16%, 12%);
+	--color-colorDarker: hsl(var(--themeHue), 16%, 8%);
+	--color-colorLight: hsl(var(--themeHue), 20%, 98%);
+	--color-colorPrimary: hsl(var(--themeHue), 95%, 55%);
+	--color-colorSecondary: hsl(var(--themeHue), 85%, 65%);
+
+	/* Custom animations */
+	--animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+	section,
+	footer {
+		@apply py-8 md:py-12 lg:py-24 xl:py-36 border-b border-white/5;
+	}
+	.wrapper {
+		@apply mx-auto w-7xl max-w-[90vw];
+	}
+	.text-wrapper {
+		@apply w-5xl;
+	}
+
+	body {
+		@apply bg-colorDarker text-colorLight/80 font-mono antialiased selection:bg-colorPrimary/30 selection:text-white;
+		background-image: linear-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+		background-size: 20px 20px;
+	}
+
+	p {
+		@apply my-4 first:mt-0 last:mb-0 leading-relaxed;
+	}
+	strong {
+		@apply font-bold text-colorPrimary;
+	}
+	em {
+		@apply italic text-colorSecondary;
+	}
+	a {
+		@apply text-colorPrimary hover:text-white transition-colors duration-300 underline decoration-colorPrimary/30 underline-offset-4 hover:decoration-colorPrimary;
+	}
+	ul {
+		@apply my-4 list-none pl-0 space-y-3;
+	}
+	ol {
+		@apply my-4 list-decimal list-inside space-y-3;
+	}
+	li {
+		@apply relative pl-6;
+	}
+	ul > li::before {
+		content: '::';
+		@apply absolute left-0 text-colorPrimary/50 font-mono text-xs top-1;
+	}
+	li ol,
+	li ul {
+		@apply ml-4;
+	}
+
+	hr {
+		@apply border-t border-white/5 my-16;
+	}
+
+	.button {
+		@apply inline-flex items-center gap-2 px-4 py-2 border border-colorPrimary/30 bg-colorPrimary/5 text-sm uppercase tracking-widest text-colorPrimary rounded-full no-underline;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-sans font-bold tracking-tight text-colorLight;
+	}
+
+	h1 {
+		@apply text-5xl md:text-7xl lg:text-8xl my-8 tracking-tighter;
+	}
+	h2 {
+		@apply text-4xl md:text-5xl font-bold uppercase tracking-widest text-colorPrimary my-6;
+	}
+	h3 {
+		@apply text-3xl font-bold text-colorPrimary mb-6 uppercase tracking-wider;
+	}
+	h4 {
+		@apply font-bold text-colorPrimary mb-4 uppercase tracking-wider;
+	}
+}

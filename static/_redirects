@@ -1,0 +1,4 @@
+# Redirect old page URLs to single-page site with anchor links
+/manifesto  /#manifesto  301
+/protocol   /#protocol   301
+/recursion  /#recursion  301
